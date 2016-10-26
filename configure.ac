@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.69])
 AC_INIT([useragent], [1.0], [kailu@evertb.com])
-AM_INIT_AUTOMAKE([foreign subdir-objects])
+AM_INIT_AUTOMAKE([subdir-objects])
 
 AC_CONFIG_SRCDIR([uap-cpp/UaParser.cpp])
 AC_CONFIG_HEADERS([config.h])
